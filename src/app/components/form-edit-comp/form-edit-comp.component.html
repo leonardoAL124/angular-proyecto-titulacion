@@ -1,0 +1,28 @@
+<form (ngSubmit)="editar(form)" #form="ngForm">
+    <div class="mb-3">
+      <label class="form-label">ID</label>
+      <input type="number" class="form-control" name="id" [(ngModel)]="id">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" name="nombre" [(ngModel)]="nombre">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" name="email" [(ngModel)]="email">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Año de nacimiento</label>
+        <input type="number" class="form-control" name="anio" [(ngModel)]="anio">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Dirección</label>
+        <br>
+        <textarea class="form-control" name="direccion" [(ngModel)]="direccion"></textarea>
+      </div>
+    <div class="mb-3">
+      <label class="form-label">Contraseña</label>
+      <input type="password" class="form-control" name="password" [(ngModel)]="password">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+  </form>

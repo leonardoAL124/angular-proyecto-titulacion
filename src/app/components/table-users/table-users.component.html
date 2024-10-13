@@ -1,0 +1,27 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Año de nacimiento</th>
+        <th scope="col">Email</th>
+        <th scope="col">Dirección</th>
+        <th scope="col">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of users; track item) {
+        <tr>
+            <th scope="row">{{item.id}}</th>
+            <td>{{item.nombre}}</td>
+            <td>{{item.anio}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.direccion}}</td>
+            <td>
+                <button class="btn btn-success" [routerLink]="['/edit/', item.id]">Editar</button>
+                <button class="btn btn-danger" (click)="eliminar(item.id)">Eliminar</button>
+            </td>
+        </tr>
+      }
+    </tbody>
+  </table>

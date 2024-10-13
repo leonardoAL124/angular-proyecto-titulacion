@@ -1,0 +1,84 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Carlos Pérez",
+      "email": "carlos.perez@example.com",
+      "anio": 1991,
+      "direccion": "Calle Falsa 123, Ciudad Tech, País",
+      "password": "carlos123"
+    },
+    {
+      "id": "2",
+      "nombre": "María García",
+      "email": "maria.garcia@example.com",
+      "anio": 1985,
+      "direccion": "Avenida del Sol 45, Ciudad Luz, País",
+      "password": "maria1985"
+    },
+    {
+      "id": "3",
+      "nombre": "Juan Rodríguez",
+      "email": "juan.rodriguez@example.com",
+      "anio": 1978,
+      "direccion": "Plaza Mayor 78, Pueblo Nuevo, País",
+      "password": "juanr78"
+    },
+    {
+      "id": "4",
+      "nombre": "Lucía Fernández",
+      "email": "lucia.fernandez@example.com",
+      "anio": 1995,
+      "direccion": "Calle Olmos 25, Ciudad Jardín, País",
+      "password": "luciaf95"
+    },
+    {
+      "id": "5",
+      "nombre": "Pedro Martínez",
+      "email": "pedro.martinez@example.com",
+      "anio": 1988,
+      "direccion": "Calle Río 17, Villa Verde, País",
+      "password": "pedrom88"
+    },
+    {
+      "id": "6",
+      "nombre": "Sofía López",
+      "email": "sofia.lopez@example.com",
+      "anio": 1992,
+      "direccion": "Avenida Central 10, Ciudad Nova, País",
+      "password": "sofia92"
+    },
+    {
+      "id": "7",
+      "nombre": "Miguel Torres",
+      "email": "miguel.torres@example.com",
+      "anio": 1980,
+      "direccion": "Calle Libertad 9, Pueblo Viejo, País",
+      "password": "miguel80"
+    },
+    {
+      "id": "8",
+      "nombre": "Ana Morales",
+      "email": "ana.morales@example.com",
+      "anio": 1993,
+      "direccion": "Calle Las Flores 34, Ciudad Esperanza, País",
+      "password": "ana93"
+    },
+    {
+      "id": "9",
+      "nombre": "Luis Gómez",
+      "email": "luis.gomez@example.com",
+      "anio": 1982,
+      "direccion": "Avenida Libertad 55, Ciudad Capital, País",
+      "password": "luisg82"
+    },
+    {
+      "id": "10",
+      "nombre": "Elena Ruiz",
+      "email": "elena.ruiz@example.com",
+      "anio": 1997,
+      "direccion": "Calle Luna 3, Barrio Nuevo, País",
+      "password": "elena97"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Imágen</th>
+        <th scope="col">Nacimiento</th>
+        <th scope="col">Muerte</th>
+        <th scope="col">Última aparición</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (i of personajes; track i) {
+        <tr>
+            <th scope="row">{{i.id}}</th>
+            <td>{{i.name}}</td>
+            <td>
+                <img src={{i.image}} alt="">
+            </td>
+            <td>{{i.bio.born}}</td>
+            <td>{{i.bio.died}}</td>
+            <td>{{i.chronologicalInformation.lastAppearance}}</td>
+            <td>
+                <button class="btn btn-primary" [routerLink]="['/info-api/', i.id]">Más Información</button>
+            </td>
+        </tr>
+      }
+    </tbody>
+  </table>
